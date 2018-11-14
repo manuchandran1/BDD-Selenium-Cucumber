@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.103278">
-<testcase classname="Free CRM Test Case" name="browser closed" time="0.103278">
-<system-out><![CDATA[Given close browser test....................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.088369">
+<testcase classname="Tagged Hooks" name="This is first test" time="0.087174">
+<system-out><![CDATA[Given this is first precondition............................................passed
+When this is first condition................................................passed
+Then this is first expected outcome.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tagged Hooks" name="This is second test" time="0.000592">
+<system-out><![CDATA[Given this is second precondition...........................................passed
+When this is second condition...............................................passed
+Then this is second expected outcome........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tagged Hooks" name="This is third test" time="0.000603">
+<system-out><![CDATA[Given this is third precondition............................................passed
+When this is third condition................................................passed
+Then this is third expected outcome.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
