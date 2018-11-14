@@ -12,6 +12,6 @@ Then user saves the contact
 Then close the browser
 
 Examples:
-	| username     | password | firstname | lastname| position    |
-	| manuchandran | 1313Man. | Tom		  | Swayer  | QA Engineer |
-	| manuchandran | 1313Man. | Hickle	  | Finn  	| QA Lead 	  |
+	| username     | password | firstname | lastname | position    |
+	| manuchandran | 1313Man. | Tom		  | Swayer   | QA Engineer |
+	| manuchandran | 1313Man. | Hickle	  | Finn  	 | QA Lead 	   |
