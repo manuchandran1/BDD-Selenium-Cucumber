@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/Users/shify/Documents/Workspace2/BDDFrameworkFreeCRM/src/main/java/Features/deal.feature", //path of feature file
+		features = "/Users/shify/Documents/Workspace2/BDDFrameworkFreeCRM/src/main/java/Features/dealsmap.feature", //path of feature file
 		glue = {"stepDefinition"}, //path of the stepDefinition files
 		format= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, // generate different types of report: html, json, junit xml output etc.
 		monochrome = true, // display the console output in a readable format
